@@ -50,3 +50,19 @@ In `style.css`, do the following:
 ### Submitting Your Work
 
 After completing the assignment, make sure to commit your changes and push them back to your own repository and turn in the GitHub link in Google Classroom.
+
+   Stored for backup:
+   
+   <!-- 
+    You must have: 
+    - a profile picture image
+    - Name
+    - Title
+    - Phone Number
+    - Company/Organization Name
+
+    Your contact card should:
+    - Resemble your mockups OR
+    - You should be able to tell use why you made the changes
+
+    -->
