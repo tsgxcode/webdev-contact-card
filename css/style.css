@@ -14,17 +14,18 @@ body{
 
 .main{
     max-width: 900px;	
-    margin: 50px auto;
+    margin: 5px auto;
     padding: 10px;
 	display: grid;
     grid-template-columns: repeat(2, 2fr);
-    column-gap: 100px;
+    column-gap: 1px;
     
 }
 
 .item{
     background: #ffb3b3;
     border: 2px solid burlywood;
+    text-align: center;
 
    
 }
@@ -38,7 +39,7 @@ body{
     }
     
     .main{
-        max-width: 900px;	
+        
         margin: 50px auto;
         padding: 10px;
         display: grid;
