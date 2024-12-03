@@ -1,58 +1,66 @@
 
 body{
-    margin: 0%;
-    margin: 0%;
+    background: burlywood;
 }
 
 
-.img {
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.main {
     display: grid;
-    justify-content: center;
-    margin:20px; 
-    padding: 4px;
-}
-
-.main{
-    max-width: 900px;	
-    margin: 5px auto;
-    padding: 10px;
-	display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    column-gap: 1px;
-    
-}
-
-.item{
-    background: #ffb3b3;
-    border: 2px solid burlywood;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    padding: 30px;
+    gap: 25px;
+  }
+  
+  .item {
+    border: 1px solid black;
+    padding: 20px;
     text-align: center;
+  }
 
+    @media (max-with: 500px)
+  
+        { 
+            .img {
+                display: grid;
+                justify-content: center;
+                margin: 20px;        
+              }
+
+              .image img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%; 
+            }
+              
+              .main {
+                  display: grid;
+                  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+                  align-items: center;
+                  gap: 25px; /* Gap between items */
+                }
+                
+                .item {
+                  border: 1px solid black;
+                  padding: 20px;
+                  align-items: center;
+                  text-align: center;
+                }
    
-}
 
-@media (min-width: 300px) {
-    .img {
-        display: flex;
-        justify-content: center;
-        margin:20px; 
-        padding: 1px;
     }
-    
-    .main{
-        
-        margin: 50px auto;
-        padding: 10px;
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        column-gap: 100px;
-        
-    }
-    
-    .item{
-        background: #ffb3b3;
-        border: 2px solid burlywood;
-    
-       
-    }
-
-}
+ 
+   
