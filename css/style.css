@@ -5,16 +5,16 @@ body{
 
 
 .image {
-  display: flex;
+  display: grid;
   justify-content: center;
-  align-items: center;
-  
+  border: 30px #efecec;
 }
 
 .image img{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    
 }
 
 .main {
@@ -34,23 +34,24 @@ body{
     @media (max-with: 500px)
   
         { 
-            .img {
+            .image {
                 display: grid;
                 justify-content: center;
-                margin: 20px;        
+                border: 30px #efecec;
               }
-
+              
               .image img{
-                width: 300px;
-                height: 300px;
-                border-radius: 50%; 
-            }
+                  width: 300px;
+                  height: 300px;
+                  border-radius: 50%;
+                  
+              }
               
               .main {
                   display: grid;
-                  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+                  grid-template-columns: 1fr 1fr;
                   align-items: center;
-                  gap: 25px; /* Gap between items */
+                  gap: 25px;
                 }
                 
                 .item {
