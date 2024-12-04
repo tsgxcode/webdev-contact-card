@@ -31,36 +31,18 @@ body{
     text-align: center;
   }
 
-    @media (max-with: 500px)
   
-        { 
-            .image {
-                display: grid;
-                justify-content: center;
-                border: 30px #efecec;
-              }
-              
-              .image img{
-                  width: 300px;
-                  height: 300px;
-                  border-radius: 50%;
-                  
-              }
-              
-              .main {
-                  display: grid;
-                  grid-template-columns: 1fr 1fr;
-                  align-items: center;
-                  gap: 25px;
-                }
-                
-                .item {
-                  border: 1px solid black;
-                  padding: 20px;
-                  align-items: center;
-                  text-align: center;
-                }
-   
+         @media (max-width: 900px) 
+         { /* Replace with 360 or whatever you intend to */
+            .main  { /* You can also use a parent for specificity */
+                grid-template-columns: 1fr; /* One column */
+                grid-template-rows: repeat(5,1fr); /* Five rows */
+                grid-template-areas:  /* Stacked areas */
+                                     "item" 
+                                     "item"
+                                     "item"
+                                     "item";
+            }
 
     }
  
