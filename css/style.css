@@ -33,11 +33,11 @@ body{
 
   
          @media (max-width: 900px) 
-         { /* Replace with 360 or whatever you intend to */
-            .main  { /* You can also use a parent for specificity */
-                grid-template-columns: 1fr; /* One column */
-                grid-template-rows: repeat(5,1fr); /* Five rows */
-                grid-template-areas:  /* Stacked areas */
+         { 
+            .main  { 
+                grid-template-columns: 1fr; 
+                grid-template-rows: repeat(5,1fr); 
+                grid-template-areas:  
                                      "item" 
                                      "item"
                                      "item"
