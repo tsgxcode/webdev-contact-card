@@ -7,7 +7,6 @@ body{
 .image {
   display: grid;
   justify-content: center;
-  border: 30px #efecec;
 }
 
 .image img{
@@ -21,14 +20,16 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr; 
     align-items: center;
-    padding: 30px;
+    padding: 3px;
     gap: 25px;
   }
   
   .item {
-    border: 1px solid black;
-    padding: 20px;
+    border: 1px solid #4a3d2e;
+    border-radius: 10px;
+    padding: 2px;
     text-align: center;
+    font-family: fantasy;
   }
 
   
